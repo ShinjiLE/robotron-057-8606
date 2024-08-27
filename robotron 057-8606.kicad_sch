@@ -5669,6 +5669,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -6002,6 +6123,12 @@
 		(uuid "13f4ce21-154d-4800-bb38-08df0a4d639e")
 	)
 	(junction
+		(at 101.6 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "233eecb5-72f5-46cc-8b16-72f9a4ee1a10")
+	)
+	(junction
 		(at 116.84 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6024,6 +6151,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67eeafa8-b9f5-42a6-896a-8cf776f44f5e")
+	)
+	(junction
+		(at 36.83 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6aa299cd-e83c-460a-88cf-5cedde05f0d7")
 	)
 	(junction
 		(at 101.6 36.83)
@@ -7249,6 +7382,16 @@
 		)
 		(uuid "3352d314-a516-4ff8-9bd2-126b4f73d1f4")
 	)
+	(wire
+		(pts
+			(xy 101.6 54.61) (xy 101.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f1d2c7-678c-461f-bf55-470da5b54466")
+	)
 	(bus
 		(pts
 			(xy 92.71 163.83) (xy 92.71 166.37)
@@ -7318,6 +7461,16 @@
 			(type default)
 		)
 		(uuid "3c78aab2-ab38-4116-b633-27dcb832ae9a")
+	)
+	(wire
+		(pts
+			(xy 177.8 27.94) (xy 177.8 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5f736c-5be8-436c-a673-f3c5d6e195c3")
 	)
 	(bus
 		(pts
@@ -7518,6 +7671,16 @@
 			(type default)
 		)
 		(uuid "559fd5a5-48c5-4b4f-9fa6-9015ac0f3272")
+	)
+	(wire
+		(pts
+			(xy 36.83 54.61) (xy 36.83 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59528825-dc49-4057-8863-8377549881d7")
 	)
 	(bus
 		(pts
@@ -9175,6 +9338,209 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 181.61 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ed8d4fe-0684-4ba2-91eb-646bacbd9ea7")
+		(property "Reference" "R3"
+			(at 181.356 25.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4,7KΩ"
+			(at 181.864 30.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 181.61 26.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b5b77d4-77b3-4b93-b50e-f9560b101c03")
+		)
+		(pin "1"
+			(uuid "f86908f3-91cc-441e-baa0-4464a9ba8dbb")
+		)
+		(instances
+			(project "robotron 057-8606"
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "522a3aa2-b4f3-4d07-a3cd-b5f919b4e198")
+		(property "Reference" "#PWR041"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1a0dbae-33c4-4a2c-bd05-9956bdefb50d")
+		)
+		(instances
+			(project "robotron 057-8606"
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "558691ee-7b69-4b4f-a0e7-974d781d8516")
+		(property "Reference" "R1"
+			(at 151.13 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 151.13 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 146.812 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f4e7dad-e92e-4100-985d-fe7d6bbe5036")
+		)
+		(pin "2"
+			(uuid "cf7e14ba-427f-4789-8f2c-b3f17a5e5308")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x13_Top_Bottom")
 		(at 43.18 44.45 0)
 		(unit 1)
@@ -9830,6 +10196,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 101.6 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c483ed0-2469-4ba2-b347-ed55393d41f0")
+		(property "Reference" "#PWR042"
+			(at 101.6 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0deb1a85-640a-46ee-9c35-9d82bbd71b92")
+		)
+		(instances
+			(project "robotron 057-8606"
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x13_Row_Letter_Last")
 		(at 107.95 44.45 0)
 		(unit 1)
@@ -9970,33 +10402,17 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS123")
-		(at 261.62 74.93 0)
+		(lib_id "power:GND")
+		(at 36.83 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c529aaa6-4db1-4e85-80d3-89c5fd23740c")
-		(property "Reference" "U10"
-			(at 261.62 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS123"
-			(at 261.62 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 261.62 74.93 0)
+		(uuid "b5eb7d1d-698c-43d3-9e9f-2ed5650cef99")
+		(property "Reference" "#PWR043"
+			(at 36.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10004,8 +10420,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS123"
-			(at 261.62 74.93 0)
+		(property "Value" "GND"
+			(at 36.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10013,8 +10437,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual retriggerable Monostable"
-			(at 261.62 74.93 0)
+		(property "Datasheet" ""
+			(at 36.83 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10022,58 +10446,92 @@
 				(hide yes)
 			)
 		)
-		(pin "10"
-			(uuid "8fff6c02-71e7-4669-9a9f-c36108095531")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "3f4b7914-a010-4e0a-a84c-be5c846948f9")
+			(uuid "23decdcf-5610-44da-9779-d49d38317618")
 		)
-		(pin "16"
-			(uuid "181e3229-bd55-4ae2-aed1-58c648b1e2a1")
+		(instances
+			(project "robotron 057-8606"
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf9a1269-03af-44b0-91f5-3a8a2686d204")
+		(property "Reference" "R2"
+			(at 158.75 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 158.75 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 154.432 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "006e8a14-02c5-4499-9ac4-efae0a325eed")
 		)
 		(pin "2"
-			(uuid "21690651-138f-4146-898e-ffa47feaabc6")
-		)
-		(pin "11"
-			(uuid "3fd45dee-598f-46d4-885a-a95cc0db78fb")
-		)
-		(pin "9"
-			(uuid "f140c460-f17b-45df-9341-2f0786a59cca")
-		)
-		(pin "8"
-			(uuid "3b7cb231-93b2-4593-adfe-239aecf77cd2")
-		)
-		(pin "14"
-			(uuid "18936c64-8c38-4eb6-ad57-619a1961da3b")
-		)
-		(pin "12"
-			(uuid "4b93b9b7-45ad-4b45-89cf-ae3a9b1c76b5")
-		)
-		(pin "13"
-			(uuid "8f3db336-903e-4310-b1a6-1f22df8c1a2d")
-		)
-		(pin "5"
-			(uuid "28a1e640-1b32-46da-af2a-c9c3d70565aa")
-		)
-		(pin "15"
-			(uuid "e9a642ae-1388-4511-848a-de0b87b77c4e")
-		)
-		(pin "4"
-			(uuid "e7b73bc4-37fc-46d2-8abc-625cdbe1e228")
-		)
-		(pin "7"
-			(uuid "dda1ca8b-a392-40a9-95ae-3279cdd09594")
-		)
-		(pin "3"
-			(uuid "7436bbb9-5773-4cf8-91df-cf95375b2667")
-		)
-		(pin "6"
-			(uuid "233f7bd0-d53c-4778-b20d-0c7c89800e0d")
+			(uuid "f34c68f5-22e1-4ce9-b673-2f233606c7ba")
 		)
 		(instances
 			(project ""
 				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0"
-					(reference "U10")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10141,6 +10599,76 @@
 			(project ""
 				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 175.26 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7055eca-57cd-4084-ba6f-480d7c58dc8c")
+		(property "Reference" "R5"
+			(at 177.8 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 177.8 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.482 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84ce2ee9-6437-4de0-8f58-14b53453929c")
+		)
+		(pin "2"
+			(uuid "e995e685-d984-4318-a6d8-82f75a831f98")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -10416,6 +10944,44 @@
 			(project "robotron 057-8606"
 				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 121.92)
+		(size 26.67 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34527526-9ad7-4342-9f28-29a5cb3d56db")
+		(property "Sheetname" "Untitled Sheet"
+			(at 134.62 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 134.62 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "robotron 057-8606"
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0"
+					(page "4")
 				)
 			)
 		)

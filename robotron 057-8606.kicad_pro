@@ -577,7 +577,7 @@
   "sheets": [
     [
       "b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0",
-      "Root"
+      "Stammblatt"
     ],
     [
       "65864de1-4859-4e7d-b399-fca6daf6dfee",
@@ -586,6 +586,10 @@
     [
       "091329cf-e55c-49df-b010-547555597b7f",
       "Counter"
+    ],
+    [
+      "34527526-9ad7-4342-9f28-29a5cb3d56db",
+      "Untitled Sheet"
     ]
   ],
   "text_variables": {}
