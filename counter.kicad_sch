@@ -1,0 +1,1213 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "89771c4f-293e-4ef3-ba30-167f6435221d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xx_IEEE:74LS193"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LS193"
+				(at 5.08 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls193.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Synchronous 4-bit Up/Down (2 clk) counter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TTL CNT CNT4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x9.9mm*P1.27mm* DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LS193_0_0"
+				(text "1"
+					(at 2.54 -2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "2"
+					(at 2.54 -7.62 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "4"
+					(at 2.54 -12.7 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "8"
+					(at 2.54 -17.78 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 30.48 270)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -27.94 90)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS193_0_1"
+				(rectangle
+					(start -12.7 -15.24)
+					(end 12.7 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -12.7 -10.16)
+					(end 12.7 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -12.7 -5.08)
+					(end 12.7 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -12.7 0)
+					(end 12.7 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 0) (xy -10.16 2.54) (xy -12.7 2.54) (xy -12.7 22.86) (xy 12.7 22.86) (xy 12.7 2.54)
+						(xy 10.16 2.54) (xy 10.16 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LS193_1_1"
+				(pin input line
+					(at -20.32 -7.62 0)
+					(length 7.62)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -12.7 0)
+					(length 7.62)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 5.08 0)
+					(length 7.62)
+					(name "~{LOAD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 10.16 180)
+					(length 7.62)
+					(name "~{CO}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 5.08 180)
+					(length 7.62)
+					(name "~{BO}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 20.32 0)
+					(length 7.62)
+					(name "CLR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -2.54 0)
+					(length 7.62)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -7.62 180)
+					(length 7.62)
+					(name "QB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -2.54 180)
+					(length 7.62)
+					(name "QA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -20.32 10.16 0)
+					(length 7.62)
+					(name "DOWN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -20.32 15.24 0)
+					(length 7.62)
+					(name "UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -12.7 180)
+					(length 7.62)
+					(name "QC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -17.78 180)
+					(length 7.62)
+					(name "QD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -17.78 0)
+					(length 7.62)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 33.02 93.98) (xy 96.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0bf003-f8aa-4a9c-9dbf-7b1bea9c9398")
+	)
+	(wire
+		(pts
+			(xy 104.14 53.34) (xy 99.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25783383-83e5-456c-a79b-36db5068ba1f")
+	)
+	(wire
+		(pts
+			(xy 99.06 53.34) (xy 99.06 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac87bdf-485b-41a2-81c3-50f76c8c5da8")
+	)
+	(wire
+		(pts
+			(xy 96.52 58.42) (xy 104.14 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e67445-f082-4b65-8151-1059f4481150")
+	)
+	(wire
+		(pts
+			(xy 33.02 138.43) (xy 33.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ccfceb2-6f48-42df-9876-62f1ec126f4e")
+	)
+	(wire
+		(pts
+			(xy 40.64 138.43) (xy 33.02 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b93094a6-b57a-41dc-aa64-59a70da28e4f")
+	)
+	(wire
+		(pts
+			(xy 99.06 143.51) (xy 104.14 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf584682-ace3-43f3-ad92-98367c816d1d")
+	)
+	(wire
+		(pts
+			(xy 96.52 93.98) (xy 96.52 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f031a9-18a0-4154-b4de-040283fc5ca5")
+	)
+	(symbol
+		(lib_id "74xx_IEEE:74LS193")
+		(at 62.23 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "012a5919-f6f2-4029-a0f6-740c7cca5aac")
+		(property "Reference" "U1"
+			(at 64.4241 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS193"
+			(at 64.4241 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 62.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls193.pdf"
+			(at 62.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Synchronous 4-bit Up/Down (2 clk) counter"
+			(at 62.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "786ef928-211d-40f9-8691-bae007200c6c")
+		)
+		(pin "2"
+			(uuid "aa1c923f-c544-4fa8-ada2-05209dfa6fdc")
+		)
+		(pin "3"
+			(uuid "cd6f14f9-af88-45f0-a96b-778b6ce1fa9c")
+		)
+		(pin "4"
+			(uuid "e26accfe-f629-43bd-9a4a-35831d56197b")
+		)
+		(pin "16"
+			(uuid "46a44a5c-2910-4a27-948b-5ab56418137d")
+		)
+		(pin "7"
+			(uuid "7b8e2e35-7874-4062-8f5d-c4b43224e4f0")
+		)
+		(pin "6"
+			(uuid "af99fbc9-efeb-4f89-b864-8c625fa632c7")
+		)
+		(pin "1"
+			(uuid "4ce875cf-0c5e-4737-8b93-8d7be2d059c7")
+		)
+		(pin "8"
+			(uuid "e60651a6-ce7e-4676-8b0f-8fa4d72099c0")
+		)
+		(pin "10"
+			(uuid "753b44d5-e4ea-45c0-a843-cb60ff980d39")
+		)
+		(pin "9"
+			(uuid "c89f2381-f419-44b8-b9ec-65db188182d8")
+		)
+		(pin "15"
+			(uuid "dfa130c6-c5fb-4168-80f7-21354b3d4e13")
+		)
+		(pin "13"
+			(uuid "4bad4c7c-a438-4b5b-9ea0-c556e48823ad")
+		)
+		(pin "12"
+			(uuid "abdcb598-b292-4986-9d08-432ba51cd0b5")
+		)
+		(pin "11"
+			(uuid "b263dbf9-ad77-4b34-b531-0c8deb2ab284")
+		)
+		(pin "5"
+			(uuid "73c35fd2-d077-487a-ab1a-91de531fe0eb")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/091329cf-e55c-49df-b010-547555597b7f"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx_IEEE:74LS193")
+		(at 187.96 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28915709-6410-4ccc-b660-e5d6fd3620cb")
+		(property "Reference" "U5"
+			(at 190.1541 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS193"
+			(at 190.1541 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 187.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls193.pdf"
+			(at 187.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Synchronous 4-bit Up/Down (2 clk) counter"
+			(at 187.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "4b6e49a9-6d69-47f9-bb03-37fa9a82c5ed")
+		)
+		(pin "15"
+			(uuid "3c5412ca-6861-45b1-8ca2-bd567b3e66b4")
+		)
+		(pin "5"
+			(uuid "f5852fd0-fc82-43de-9e87-bde29fa0a446")
+		)
+		(pin "14"
+			(uuid "3851e969-fd56-46fb-8687-64dae9c027cf")
+		)
+		(pin "6"
+			(uuid "241e1e4c-e05e-4965-92f0-818e1185c308")
+		)
+		(pin "7"
+			(uuid "2b1470c4-e62e-4c80-abed-fdf44720a484")
+		)
+		(pin "4"
+			(uuid "1b8e045e-e150-44c1-8100-5a1b73eff541")
+		)
+		(pin "8"
+			(uuid "f1337d83-68de-43e6-8987-5ca7a98b10bf")
+		)
+		(pin "9"
+			(uuid "c1255adf-1f3b-433d-9b6c-4a2b81729f07")
+		)
+		(pin "3"
+			(uuid "31028cfc-c80c-4dce-be16-f234c1cd7635")
+		)
+		(pin "16"
+			(uuid "59aa622e-4d8c-47ec-8f9c-cebc422767a9")
+		)
+		(pin "1"
+			(uuid "e6cf3783-b4c5-4c32-a276-65ec04f60af9")
+		)
+		(pin "12"
+			(uuid "dd5c663e-a579-4431-83b2-e96dd821dd21")
+		)
+		(pin "2"
+			(uuid "753ee327-d486-4cbd-83bb-4a5db28553fe")
+		)
+		(pin "11"
+			(uuid "fd5010a6-2e18-405e-a88c-637c7472c253")
+		)
+		(pin "13"
+			(uuid "cefc8610-dcc0-4dde-8224-5d99a36adc88")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/091329cf-e55c-49df-b010-547555597b7f"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx_IEEE:74LS193")
+		(at 124.46 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cda6615-a09c-4777-924e-be8864cc41c4")
+		(property "Reference" "U3"
+			(at 126.6541 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS193"
+			(at 126.6541 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 124.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls193.pdf"
+			(at 124.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Synchronous 4-bit Up/Down (2 clk) counter"
+			(at 124.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47f176ac-3071-47e7-9840-d6b10cd0ecf0")
+		)
+		(pin "1"
+			(uuid "e9d1d647-b8f3-4827-b025-3483215ee7d0")
+		)
+		(pin "8"
+			(uuid "6c8c24f6-9702-4b6d-8773-7c46de16966d")
+		)
+		(pin "13"
+			(uuid "6a7b11ef-3e52-427a-ac2d-29101dcbf7bb")
+		)
+		(pin "12"
+			(uuid "7991ebc1-b514-41b7-9772-40034617550a")
+		)
+		(pin "11"
+			(uuid "ec8b85ce-82bb-46ac-943c-767611c80158")
+		)
+		(pin "9"
+			(uuid "b4bd1539-444a-4063-bca2-f7737dcbb86c")
+		)
+		(pin "16"
+			(uuid "7a9ea731-357f-4c03-b31d-6570a5182d3c")
+		)
+		(pin "5"
+			(uuid "0d8a8376-d616-4a5a-9988-e254ea9894af")
+		)
+		(pin "10"
+			(uuid "4e28ffde-e07c-42dc-860b-c9e4447f2991")
+		)
+		(pin "14"
+			(uuid "0f3f6ee8-fa9f-43a7-bb8c-03db2072a052")
+		)
+		(pin "3"
+			(uuid "9d628175-7b46-4ab1-9d53-3f9bde18ee12")
+		)
+		(pin "7"
+			(uuid "0c3c481b-6cd6-434f-a3e5-3c0f11933517")
+		)
+		(pin "4"
+			(uuid "e9a3fb2b-b602-4cfb-b424-b1fd1e6058b4")
+		)
+		(pin "6"
+			(uuid "a29c1d6b-c440-4b7b-96b9-c11ecb980b61")
+		)
+		(pin "15"
+			(uuid "dbefd282-b7bb-4fcb-b3ff-a08661dca88b")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/091329cf-e55c-49df-b010-547555597b7f"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx_IEEE:74LS193")
+		(at 124.46 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e33054b3-ba9a-4612-9392-a009eaed7c01")
+		(property "Reference" "U4"
+			(at 126.6541 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS193"
+			(at 126.6541 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls193.pdf"
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Synchronous 4-bit Up/Down (2 clk) counter"
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "d485cf55-deb1-4d29-ba8e-7116d4b58ce3")
+		)
+		(pin "4"
+			(uuid "c6443eb3-9959-4d1a-b772-39c3cd86259a")
+		)
+		(pin "14"
+			(uuid "55c2caa5-fa4e-4bcb-9339-905f60c5d724")
+		)
+		(pin "15"
+			(uuid "83c70952-dd6e-433b-9a76-11a85ec56fb2")
+		)
+		(pin "5"
+			(uuid "d9c1e838-c22d-4afd-b58a-db73fbee5e88")
+		)
+		(pin "3"
+			(uuid "f90d2263-98bf-4381-89af-d75329688401")
+		)
+		(pin "13"
+			(uuid "cc7d4788-8e0f-4c28-a532-23f31d056c52")
+		)
+		(pin "12"
+			(uuid "971c73af-0c5f-47c6-843e-490334d56efc")
+		)
+		(pin "16"
+			(uuid "89ad7bb2-cd47-4fb5-9114-380248aeafa5")
+		)
+		(pin "10"
+			(uuid "229fc912-8b40-4c77-ae3c-50d74e323106")
+		)
+		(pin "8"
+			(uuid "6dc10c63-a168-47b5-9e1e-bcf2b992f18f")
+		)
+		(pin "9"
+			(uuid "3529f336-9372-415a-8049-f05096588ce0")
+		)
+		(pin "6"
+			(uuid "5de37fea-a803-4722-bb89-64502a4a804b")
+		)
+		(pin "1"
+			(uuid "0e5dae40-b169-40b4-872f-43a37e0cb3e1")
+		)
+		(pin "2"
+			(uuid "a34d7a9e-70ca-433b-84f5-49fb4b69345a")
+		)
+		(pin "11"
+			(uuid "ec51ab4b-00fa-4bbd-b3a0-788f99607717")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/091329cf-e55c-49df-b010-547555597b7f"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx_IEEE:74LS193")
+		(at 60.96 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e92c3134-9bea-452c-83a9-f60610dbe8ff")
+		(property "Reference" "U2"
+			(at 63.1541 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS193"
+			(at 63.1541 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 60.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls193.pdf"
+			(at 60.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Synchronous 4-bit Up/Down (2 clk) counter"
+			(at 60.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "d8e2dbe6-3b14-4086-93e9-3776f5fe7182")
+		)
+		(pin "1"
+			(uuid "cda0161e-c896-46ea-bee8-d7ad0aefc96b")
+		)
+		(pin "8"
+			(uuid "a9b7393a-14ef-4846-97ca-f2307788ecae")
+		)
+		(pin "14"
+			(uuid "b679c13b-88f1-4617-bd79-c01c0b0b5950")
+		)
+		(pin "4"
+			(uuid "51f5b917-759f-4e7d-b113-95322ab8d414")
+		)
+		(pin "10"
+			(uuid "3334c338-ea06-4fe0-8ed5-52f9b6556671")
+		)
+		(pin "13"
+			(uuid "534478ee-663f-4abb-a0c9-10685bdb0263")
+		)
+		(pin "7"
+			(uuid "214b342f-ae72-4bb3-91fb-a3bfd061c10c")
+		)
+		(pin "3"
+			(uuid "72546f29-49a1-4a4e-beab-b52e33132953")
+		)
+		(pin "6"
+			(uuid "244fe26e-0f25-4e10-a38a-d27d61173ba0")
+		)
+		(pin "15"
+			(uuid "b4b420e6-1e8f-404d-912f-4676b6e0b54a")
+		)
+		(pin "5"
+			(uuid "c20a5628-e2c0-476e-a57c-08df9603a232")
+		)
+		(pin "12"
+			(uuid "3ebab8fe-c3ab-4fdf-b00a-d69fcc6a55e9")
+		)
+		(pin "11"
+			(uuid "59b4d64b-825b-45fd-84c8-b745e2d06a72")
+		)
+		(pin "2"
+			(uuid "2e411405-ae2d-47a6-bb57-56b4bc2535fd")
+		)
+		(pin "16"
+			(uuid "ef4c6860-1c3d-445e-ad5b-e6bba1bb6338")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/091329cf-e55c-49df-b010-547555597b7f"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx_IEEE:74LS193")
+		(at 190.5 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9d56b05-b9a1-4fcb-b18e-c5480e39eee3")
+		(property "Reference" "U11"
+			(at 192.6941 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS193"
+			(at 192.6941 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls193.pdf"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Synchronous 4-bit Up/Down (2 clk) counter"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "8dfb0169-0d66-497d-b55a-381a59ed1bc3")
+		)
+		(pin "11"
+			(uuid "8e9c625a-954c-4d0a-8d15-b07ec9d1512e")
+		)
+		(pin "10"
+			(uuid "4cc13116-369a-4e24-88f8-e927a90a5e11")
+		)
+		(pin "14"
+			(uuid "8f93b401-a821-46af-9673-77061640b7c5")
+		)
+		(pin "15"
+			(uuid "e6f3469c-c8a2-44d8-8218-7502bf5c6272")
+		)
+		(pin "2"
+			(uuid "36a3462f-9e66-4f92-8142-ff488df1ceef")
+		)
+		(pin "1"
+			(uuid "30e987dd-fb2e-4da3-aafc-5842e263f238")
+		)
+		(pin "8"
+			(uuid "ab51ce65-a017-4ba4-88c1-9c5275472df0")
+		)
+		(pin "9"
+			(uuid "74d9afa8-464e-47c9-a0be-c9e85a33b4fb")
+		)
+		(pin "3"
+			(uuid "a3505cb1-6fa9-434e-95c2-30fd0208568c")
+		)
+		(pin "4"
+			(uuid "3dee4d6b-56e2-4062-ace4-ef7d5ce088f5")
+		)
+		(pin "5"
+			(uuid "b11f5fae-4197-45e1-bf92-fb6c8dfc5e98")
+		)
+		(pin "13"
+			(uuid "be127b25-421b-4f99-84fc-7c1cde396e3d")
+		)
+		(pin "12"
+			(uuid "1c14b873-3903-496c-8f2c-9074530c92a7")
+		)
+		(pin "16"
+			(uuid "98cf899d-2e30-4e9f-b7ab-0d044e6cf399")
+		)
+		(pin "7"
+			(uuid "70f4155e-c0b1-47df-812c-3721552eda5a")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/091329cf-e55c-49df-b010-547555597b7f"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

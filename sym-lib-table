@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "dual line receiver transmitter")(type "KiCad")(uri "${KIPRJMOD}/dual line receiver transmitter.kicad_sym")(options "")(descr ""))
+  (lib (name "line termination resistors")(type "KiCad")(uri "${KIPRJMOD}/line termination resistors.kicad_sym")(options "")(descr ""))
+)
