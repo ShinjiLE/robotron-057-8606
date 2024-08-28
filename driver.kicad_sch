@@ -2446,6 +2446,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 172.72) (xy 29.21 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c2aa9e6-2aae-4b79-b1cc-97b4d729e06b")
+	)
+	(wire
+		(pts
 			(xy 48.26 114.3) (xy 55.88 114.3)
 		)
 		(stroke
@@ -2473,6 +2483,16 @@
 			(type default)
 		)
 		(uuid "252eb945-2107-4880-afdf-dcf7c976760a")
+	)
+	(wire
+		(pts
+			(xy 36.83 172.72) (xy 43.18 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c8aea7-bf35-4cdb-82d2-6453da652c64")
 	)
 	(wire
 		(pts
@@ -2506,6 +2526,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 176.53) (xy 29.21 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d301cf-a1ec-4866-9323-1d8a3109eec6")
+	)
+	(wire
+		(pts
 			(xy 48.26 118.11) (xy 55.88 118.11)
 		)
 		(stroke
@@ -2523,6 +2553,16 @@
 			(type default)
 		)
 		(uuid "6d56f3c2-0d0e-48a6-b656-872e653f4608")
+	)
+	(wire
+		(pts
+			(xy 71.12 176.53) (xy 72.39 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "739d493b-f36c-4b1b-8488-dd0c0f9e0221")
 	)
 	(wire
 		(pts
@@ -2566,6 +2606,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 176.53) (xy 43.18 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab4888e-45a5-4ffe-bdb5-f74c5d90c90c")
+	)
+	(wire
+		(pts
 			(xy 54.61 110.49) (xy 54.61 121.92)
 		)
 		(stroke
@@ -2573,6 +2623,30 @@
 			(type default)
 		)
 		(uuid "edaf9668-6f0f-4bcd-bd4e-d72585ae5733")
+	)
+	(hierarchical_label "SRV_CLK"
+		(shape input)
+		(at 27.94 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ea36ea0-1b1b-4663-a07c-a6b7f3a95e1b")
+	)
+	(hierarchical_label "SRV_CLK_TTL"
+		(shape output)
+		(at 72.39 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72830eb4-86d8-4e76-9f10-7870315eddf0")
 	)
 	(hierarchical_label "{slash}UNIT-SELECT"
 		(shape input)
@@ -2585,6 +2659,18 @@
 			(justify right)
 		)
 		(uuid "8d22264a-c8a1-438c-983f-14739bbbe4ca")
+	)
+	(hierarchical_label "{slash}SRV_CLK"
+		(shape input)
+		(at 27.94 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91fa2513-56be-447c-a50a-6903ae105757")
 	)
 	(hierarchical_label "UNIT-SELECT"
 		(shape input)
@@ -2665,6 +2751,170 @@
 		)
 	)
 	(symbol
+		(lib_id "line termination resistors:3553")
+		(at 179.07 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13592704-b46f-4d02-a68a-308c91c1d1ba")
+		(property "Reference" "RN9"
+			(at 185.42 110.7439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68Ω"
+			(at 185.42 113.2839 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP6"
+			(at 179.324 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 68Ω Termination Resistors"
+			(at 179.578 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "c12f0799-14c1-4339-84c6-6b4405292728")
+		)
+		(pin "5"
+			(uuid "27e5b357-5acf-4f30-b811-bb40f90ca1c2")
+		)
+		(pin "4"
+			(uuid "655d438f-6a4c-4f56-b27a-73cb9db0258f")
+		)
+		(pin "2"
+			(uuid "50eb53b7-7d72-4878-b939-6a2fd902498a")
+		)
+		(pin "3"
+			(uuid "194e2ca7-fe34-486d-b89d-4359213ee411")
+		)
+		(pin "1"
+			(uuid "ab1fa438-8e83-47ff-a649-d34ba4335144")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/65864de1-4859-4e7d-b399-fca6daf6dfee"
+					(reference "RN9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "line termination resistors:3553")
+		(at 179.07 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1581eecb-10cc-4015-9c39-5b7ee4fc619c")
+		(property "Reference" "RN8"
+			(at 185.42 96.7739 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68Ω"
+			(at 185.42 99.3139 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP6"
+			(at 179.324 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 68Ω Termination Resistors"
+			(at 179.578 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "922c91b8-28e6-49b9-b529-75213f6abe69")
+		)
+		(pin "5"
+			(uuid "2cab9c92-03f6-44ff-8dd0-2f9431a85c62")
+		)
+		(pin "1"
+			(uuid "9adea6ce-0b9a-4d98-9516-a50aa5a156a8")
+		)
+		(pin "4"
+			(uuid "1031de28-0aa3-4432-935f-33d12399b652")
+		)
+		(pin "3"
+			(uuid "3040a0c2-cece-415d-88ea-830c7fbff4e3")
+		)
+		(pin "2"
+			(uuid "944a4f85-df0b-455d-973d-3781e097660e")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/65864de1-4859-4e7d-b399-fca6daf6dfee"
+					(reference "RN8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-5V")
 		(at 227.33 62.23 180)
 		(unit 1)
@@ -2725,6 +2975,74 @@
 			(project "robotron 057-8606"
 				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/65864de1-4859-4e7d-b399-fca6daf6dfee"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 33.02 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bac2324-657b-418c-99cd-70c0eadc6415")
+		(property "Reference" "R9"
+			(at 33.02 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 33.02 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 33.02 174.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 33.02 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c71b47c4-5b18-4179-b230-a7047a19c576")
+		)
+		(pin "1"
+			(uuid "b048d6c5-58e4-4911-8df9-275c1a8ea7df")
+		)
+		(instances
+			(project "robotron 057-8606"
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/65864de1-4859-4e7d-b399-fca6daf6dfee"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3101,9 +3419,91 @@
 		)
 	)
 	(symbol
+		(lib_id "line termination resistors:3553")
+		(at 158.75 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ad2ad21-42c8-4d3d-85c5-8bda83263e5a")
+		(property "Reference" "RN2"
+			(at 165.1 109.4739 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68Ω"
+			(at 165.1 112.0139 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP6"
+			(at 159.004 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 68Ω Termination Resistors"
+			(at 159.258 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "466b4ef9-ca9f-4195-b6b6-73e3cf1eecf8")
+		)
+		(pin "2"
+			(uuid "fdf7498d-2234-401d-a0ad-d402458bf122")
+		)
+		(pin "1"
+			(uuid "a1f7338c-e551-407a-bbe8-b92d5b37756f")
+		)
+		(pin "3"
+			(uuid "5e7e2bdf-fcc0-4af4-a484-c4aecc723278")
+		)
+		(pin "5"
+			(uuid "15e99473-1641-48e2-adbb-53de6bfa55ae")
+		)
+		(pin "6"
+			(uuid "be5c58d2-dd1c-4b86-a66c-0322a79f0f29")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/65864de1-4859-4e7d-b399-fca6daf6dfee"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "SN75107_1")
 		(lib_id "dual line receiver transmitter:SN75107")
-		(at 111.76 121.92 0)
+		(at 57.15 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3112,7 +3512,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ad74c37-562b-40d8-8809-6223fba3c662")
 		(property "Reference" "U9"
-			(at 114.7765 104.14 0)
+			(at 60.1665 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,7 +3521,7 @@
 			)
 		)
 		(property "Value" "SN75107"
-			(at 114.7765 106.68 0)
+			(at 60.1665 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +3530,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 94.996 104.648 0)
+			(at 40.386 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,7 +3539,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn75107a.pdf"
-			(at 111.76 101.092 0)
+			(at 57.15 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +3548,7 @@
 			)
 		)
 		(property "Description" "TTL-compatible, high-speed line receivers"
-			(at 112.014 150.368 0)
+			(at 57.404 197.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,7 +3675,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 139.7 0)
+		(at 53.34 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3284,7 +3684,7 @@
 		(fields_autoplaced yes)
 		(uuid "489cb57b-5c66-42f4-9c6d-80d7323b03d3")
 		(property "Reference" "#PWR02"
-			(at 107.95 146.05 0)
+			(at 53.34 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,7 +3693,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 144.78 0)
+			(at 53.34 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3301,7 +3701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 139.7 0)
+			(at 53.34 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3310,7 +3710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 139.7 0)
+			(at 53.34 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +3719,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 139.7 0)
+			(at 53.34 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,6 +4171,170 @@
 			(project ""
 				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/65864de1-4859-4e7d-b399-fca6daf6dfee"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "line termination resistors:3553")
+		(at 158.75 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82b11b3c-35ff-40fe-9000-4dd09a69c850")
+		(property "Reference" "RN5"
+			(at 165.1 134.8739 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68Ω"
+			(at 165.1 137.4139 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP6"
+			(at 159.004 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 68Ω Termination Resistors"
+			(at 159.258 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "43af57d1-036c-4b59-bc15-723122a31cb9")
+		)
+		(pin "1"
+			(uuid "a4c4bef6-f489-4e83-9255-17cf9aa7f99a")
+		)
+		(pin "3"
+			(uuid "e7d1886c-d5c6-4565-8f6a-04ae752168aa")
+		)
+		(pin "5"
+			(uuid "18a5a3ec-977f-4d79-b283-533243c8deea")
+		)
+		(pin "6"
+			(uuid "54061b88-c02a-4ad0-8658-3e2952d2c35a")
+		)
+		(pin "2"
+			(uuid "5c6fe2bf-4bb4-4a9d-afd0-1da9981a4a87")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/65864de1-4859-4e7d-b399-fca6daf6dfee"
+					(reference "RN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "line termination resistors:3553")
+		(at 158.75 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83a3661e-95ff-41b0-a0aa-04b5777702d6")
+		(property "Reference" "RN6"
+			(at 165.1 147.5739 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68Ω"
+			(at 165.1 150.1139 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP6"
+			(at 159.004 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 68Ω Termination Resistors"
+			(at 159.258 164.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "66306e77-6d34-45d4-8b38-7faa6e1d0649")
+		)
+		(pin "1"
+			(uuid "1245d89d-2b4a-4469-b913-44de686620d4")
+		)
+		(pin "5"
+			(uuid "1c39be6f-dd44-47ef-bef4-725946554d5e")
+		)
+		(pin "4"
+			(uuid "9c8dc22c-e946-4e0a-a08e-9a764b6dd5a0")
+		)
+		(pin "6"
+			(uuid "33ef7db3-d567-4e01-8960-b836aea0222d")
+		)
+		(pin "2"
+			(uuid "b1b2ce6e-55c1-49b9-bd34-698edee9f6f3")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/65864de1-4859-4e7d-b399-fca6daf6dfee"
+					(reference "RN6")
 					(unit 1)
 				)
 			)
@@ -4347,6 +4911,88 @@
 		)
 	)
 	(symbol
+		(lib_id "line termination resistors:3553")
+		(at 158.75 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a76c08c4-aed0-42f9-83b1-253388297300")
+		(property "Reference" "RN3"
+			(at 165.1 122.1739 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68Ω"
+			(at 165.1 124.7139 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP6"
+			(at 159.004 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 68Ω Termination Resistors"
+			(at 159.258 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "0e5893f2-5092-4677-b604-50d4e1483540")
+		)
+		(pin "2"
+			(uuid "0aa0187c-8b69-46e2-81b2-2fa2a2f7f2fb")
+		)
+		(pin "4"
+			(uuid "45acca0b-3cf6-40d2-a8f6-2dde5db93eb7")
+		)
+		(pin "6"
+			(uuid "621849ed-a4c5-4bb4-b413-0fe88508e922")
+		)
+		(pin "3"
+			(uuid "af25bfa6-37b4-49c0-aec0-3efa068d571c")
+		)
+		(pin "1"
+			(uuid "f9ad8be4-8393-4c8e-98f7-cf5ca4533ae6")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/65864de1-4859-4e7d-b399-fca6daf6dfee"
+					(reference "RN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 49.53 121.92 0)
 		(unit 1)
@@ -4479,7 +5125,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 111.76 104.14 0)
+		(at 57.15 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4488,7 +5134,7 @@
 		(fields_autoplaced yes)
 		(uuid "b15823a4-4ba2-423e-a90a-695f18ff3534")
 		(property "Reference" "#PWR08"
-			(at 111.76 107.95 0)
+			(at 57.15 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,7 +5143,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 111.76 99.06 0)
+			(at 57.15 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,7 +5151,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 104.14 0)
+			(at 57.15 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4514,7 +5160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 104.14 0)
+			(at 57.15 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4523,7 +5169,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 111.76 104.14 0)
+			(at 57.15 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,6 +5184,238 @@
 			(project ""
 				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/65864de1-4859-4e7d-b399-fca6daf6dfee"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "line termination resistors:3553")
+		(at 179.07 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b889931f-1de4-4b09-be9c-ebf926990502")
+		(property "Reference" "RN10"
+			(at 185.42 123.4439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68Ω"
+			(at 185.42 125.9839 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP6"
+			(at 179.324 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 68Ω Termination Resistors"
+			(at 179.578 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c7755361-14cf-4bd3-94fc-f7a99103b8c1")
+		)
+		(pin "6"
+			(uuid "e50d9e29-ced1-43ae-ae96-9111840f1134")
+		)
+		(pin "5"
+			(uuid "49c41e9f-92f0-415a-984b-6a5dd8df8842")
+		)
+		(pin "2"
+			(uuid "11da7269-e354-48dc-b269-26118ac00e9d")
+		)
+		(pin "3"
+			(uuid "6ae6bc96-62ca-4fc7-a317-795406d20e7b")
+		)
+		(pin "1"
+			(uuid "f97d24cb-9ca4-4d59-b762-2dd870ee5408")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/65864de1-4859-4e7d-b399-fca6daf6dfee"
+					(reference "RN10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "line termination resistors:3553")
+		(at 158.75 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba96321f-d9df-46a5-81f5-820f94ab2226")
+		(property "Reference" "RN7"
+			(at 165.1 161.5439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68Ω"
+			(at 165.1 164.0839 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP6"
+			(at 159.004 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 68Ω Termination Resistors"
+			(at 159.258 178.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa336a12-aa05-468b-83ed-d15f4b18f851")
+		)
+		(pin "5"
+			(uuid "698f94e8-e772-4abc-94c8-bba4f547e60a")
+		)
+		(pin "4"
+			(uuid "95673e55-7a53-4e59-a9bd-cf52c2a217b6")
+		)
+		(pin "6"
+			(uuid "26b6b7cb-ea4a-437e-a7c2-7aba9f74350b")
+		)
+		(pin "3"
+			(uuid "5d789bfa-ddf0-40fa-a47a-8e348885a922")
+		)
+		(pin "1"
+			(uuid "2e77ca24-b8c1-499e-a981-8c837df2d535")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/65864de1-4859-4e7d-b399-fca6daf6dfee"
+					(reference "RN7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 33.02 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be799f46-8a5c-470a-adf8-d78459baff9b")
+		(property "Reference" "R10"
+			(at 33.02 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 33.02 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 33.02 178.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 33.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5835efa8-2c51-4f7a-aa27-3cec93db8f03")
+		)
+		(pin "1"
+			(uuid "1cb7bb83-c922-461b-a1ee-fe8b04151d89")
+		)
+		(instances
+			(project "robotron 057-8606"
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/65864de1-4859-4e7d-b399-fca6daf6dfee"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5326,7 +6204,7 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 115.57 139.7 180)
+		(at 60.96 186.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5335,7 +6213,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7060dc4-5455-446c-8758-848859a7b613")
 		(property "Reference" "#PWR021"
-			(at 115.57 135.89 0)
+			(at 60.96 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,7 +6222,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 115.57 144.78 0)
+			(at 60.96 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,7 +6230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 139.7 0)
+			(at 60.96 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,7 +6239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 139.7 0)
+			(at 60.96 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5370,7 +6248,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 115.57 139.7 0)
+			(at 60.96 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,6 +6263,88 @@
 			(project "robotron 057-8606"
 				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/65864de1-4859-4e7d-b399-fca6daf6dfee"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "line termination resistors:3553")
+		(at 179.07 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa76136a-547b-4fe7-9463-afe45a143ac7")
+		(property "Reference" "RN11"
+			(at 185.42 136.1439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68Ω"
+			(at 185.42 138.6839 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP6"
+			(at 179.324 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 68Ω Termination Resistors"
+			(at 179.578 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "611104c3-edb1-4af3-b829-ef998d0ed5e9")
+		)
+		(pin "5"
+			(uuid "5f47466c-91f7-417f-ab2b-7859b7896d08")
+		)
+		(pin "6"
+			(uuid "27e422a4-6196-47c4-9ed1-47df5a4b2456")
+		)
+		(pin "4"
+			(uuid "8c836d2b-eba2-4b14-ae0d-d05a09dc378a")
+		)
+		(pin "3"
+			(uuid "66f78863-a5bc-4a96-affd-436734f389db")
+		)
+		(pin "1"
+			(uuid "06271dbb-89b7-44ab-8bc2-9b659cfb08d0")
+		)
+		(instances
+			(project ""
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/65864de1-4859-4e7d-b399-fca6daf6dfee"
+					(reference "RN11")
 					(unit 1)
 				)
 			)
