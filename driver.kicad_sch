@@ -2648,7 +2648,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 43.18) (xy 109.22 67.31)
+			(xy 109.22 43.18) (xy 109.22 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2698,7 +2698,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 66.04) (xy 101.6 74.93)
+			(xy 106.68 66.04) (xy 106.68 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3168,26 +3168,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 74.93) (xy 109.22 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94aaabfe-9e92-4eee-a525-0d1f3f5f2866")
-	)
-	(wire
-		(pts
-			(xy 106.68 53.34) (xy 106.68 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96d86170-02fa-49be-84ed-5225102687d1")
-	)
-	(wire
-		(pts
 			(xy 81.28 44.45) (xy 76.2 44.45)
 		)
 		(stroke
@@ -3248,7 +3228,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 39.37) (xy 110.49 39.37)
+			(xy 106.68 39.37) (xy 107.95 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3268,7 +3248,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 49.53) (xy 111.76 74.93)
+			(xy 114.3 49.53) (xy 114.3 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3298,7 +3278,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 66.04) (xy 101.6 66.04)
+			(xy 107.95 66.04) (xy 106.68 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3315,6 +3295,16 @@
 			(type default)
 		)
 		(uuid "bb477231-a222-4fad-b16a-97468be68d4e")
+	)
+	(wire
+		(pts
+			(xy 111.76 53.34) (xy 111.76 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0658de-655d-4a0d-8693-fd6ae20daca9")
 	)
 	(wire
 		(pts
@@ -3338,17 +3328,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 67.31) (xy 104.14 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0d76a57-cd1b-49ed-9ee5-8786c90463da")
-	)
-	(wire
-		(pts
-			(xy 110.49 39.37) (xy 110.49 66.04)
+			(xy 107.95 39.37) (xy 107.95 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3408,7 +3388,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 49.53) (xy 111.76 49.53)
+			(xy 106.68 49.53) (xy 114.3 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3445,16 +3425,6 @@
 			(type default)
 		)
 		(uuid "eab4888e-45a5-4ffe-bdb5-f74c5d90c90c")
-	)
-	(wire
-		(pts
-			(xy 104.14 67.31) (xy 104.14 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec7f824f-dd4d-470b-806f-2d4cc42fdd7c")
 	)
 	(wire
 		(pts
@@ -3505,6 +3475,16 @@
 			(type default)
 		)
 		(uuid "f6da9c56-b33d-4b5b-8764-5e7c63dc302c")
+	)
+	(wire
+		(pts
+			(xy 111.76 53.34) (xy 106.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb79ab6a-ce1f-4e70-b4dd-c0ad1640fde9")
 	)
 	(hierarchical_label "SRV_CLK"
 		(shape input)
@@ -3590,7 +3570,7 @@
 		)
 		(uuid "d2c73728-bae6-4705-b7b3-23914e1c0622")
 	)
-	(hierarchical_label "U5_QA"
+	(hierarchical_label "BIT10_TTL"
 		(shape input)
 		(at 67.31 17.78 180)
 		(fields_autoplaced yes)
@@ -5096,7 +5076,7 @@
 	)
 	(symbol
 		(lib_id "line termination resistors:3553")
-		(at 105.41 80.01 180)
+		(at 110.49 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5105,7 +5085,7 @@
 		(fields_autoplaced yes)
 		(uuid "82b11b3c-35ff-40fe-9000-4dd09a69c850")
 		(property "Reference" "RN5"
-			(at 111.76 78.4859 0)
+			(at 116.84 78.4859 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5114,7 +5094,7 @@
 			)
 		)
 		(property "Value" "68Ω"
-			(at 111.76 81.0259 0)
+			(at 116.84 81.0259 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,7 +5103,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP6"
-			(at 105.156 66.548 0)
+			(at 110.236 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,7 +5112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 80.01 0)
+			(at 110.49 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,7 +5121,7 @@
 			)
 		)
 		(property "Description" "Quad 68Ω Termination Resistors"
-			(at 104.902 64.516 0)
+			(at 109.982 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,7 +6089,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 85.09 0)
+		(at 114.3 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6118,7 +6098,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2f03450-af98-4040-80fc-121507e36a91")
 		(property "Reference" "#PWR044"
-			(at 109.22 91.44 0)
+			(at 114.3 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,7 +6107,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 90.17 0)
+			(at 114.3 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,7 +6115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 85.09 0)
+			(at 114.3 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +6124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 85.09 0)
+			(at 114.3 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6133,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 85.09 0)
+			(at 114.3 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
