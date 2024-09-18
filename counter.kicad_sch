@@ -3818,6 +3818,262 @@
 				)
 			)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -4048,6 +4304,12 @@
 		(uuid "0c6bb372-e69a-493e-a409-1554002f06df")
 	)
 	(junction
+		(at 134.62 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f0be4b5-04b9-4cf7-8948-587c5bc796a1")
+	)
+	(junction
 		(at 109.22 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4269,6 +4531,12 @@
 		(color 0 0 0 0)
 		(uuid "fc05d913-82ce-4606-b5a3-a997f32878ef")
 	)
+	(junction
+		(at 209.55 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd65c9a4-6b9f-41bf-b367-2a25ceacb5dc")
+	)
 	(no_connect
 		(at 162.56 115.57)
 		(uuid "025ba338-3321-4df0-85b8-67caa904f97f")
@@ -4403,7 +4671,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 242.57) (xy 129.54 264.16)
+			(xy 124.46 242.57) (xy 124.46 264.16)
 		)
 		(stroke
 			(width 0)
@@ -4460,6 +4728,16 @@
 			(type default)
 		)
 		(uuid "12665e8e-d838-4b33-8c99-719794fd1cb9")
+	)
+	(wire
+		(pts
+			(xy 124.46 264.16) (xy 129.54 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16069046-fda2-42e6-97b6-dcfac472d591")
 	)
 	(wire
 		(pts
@@ -4873,6 +5151,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 254) (xy 134.62 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5373bc88-6a84-4906-960f-276fd69503bc")
+	)
+	(wire
+		(pts
 			(xy 181.61 153.67) (xy 238.76 153.67)
 		)
 		(stroke
@@ -5030,6 +5318,16 @@
 			(type default)
 		)
 		(uuid "72e67445-f082-4b65-8151-1059f4481150")
+	)
+	(wire
+		(pts
+			(xy 204.47 254) (xy 209.55 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7491311c-cc58-4a33-94ca-a9e2f232b01f")
 	)
 	(wire
 		(pts
@@ -5253,7 +5551,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 242.57) (xy 129.54 242.57)
+			(xy 172.72 242.57) (xy 124.46 242.57)
 		)
 		(stroke
 			(width 0)
@@ -5563,6 +5861,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 256.54) (xy 129.54 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53598bc-f35f-4f5b-b5ea-2400ca1e748a")
+	)
+	(wire
+		(pts
 			(xy 177.8 146.05) (xy 177.8 114.3)
 		)
 		(stroke
@@ -5720,6 +6028,16 @@
 			(type default)
 		)
 		(uuid "f01d1f82-2a2a-4e55-8733-ca6596ad79eb")
+	)
+	(wire
+		(pts
+			(xy 204.47 256.54) (xy 204.47 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03c742e-0440-41f1-80fb-30681cda4eec")
 	)
 	(wire
 		(pts
@@ -6495,6 +6813,72 @@
 				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/091329cf-e55c-49df-b010-547555597b7f"
 					(reference "U6")
 					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 134.62 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2872c991-1717-496a-a2fe-7039808f04da")
+		(property "Reference" "#PWR050"
+			(at 134.62 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 134.62 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 134.62 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89ead2d6-0b22-4031-a2c6-5f7f18deb86d")
+		)
+		(instances
+			(project "robotron 057-8606"
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/091329cf-e55c-49df-b010-547555597b7f"
+					(reference "#PWR050")
+					(unit 1)
 				)
 			)
 		)
@@ -7442,6 +7826,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 207.01 256.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6af45ef6-57cf-4b20-ba7e-22ff6a8117e7")
+		(property "Reference" "C8"
+			(at 207.01 259.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "?nF"
+			(at 202.438 257.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 207.01 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 207.01 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b60de204-fcdd-4002-8140-37c6642799ec")
+		)
+		(pin "1"
+			(uuid "f66842cc-2b3d-4d75-88ed-91ff3f9a785c")
+		)
+		(instances
+			(project "robotron 057-8606"
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/091329cf-e55c-49df-b010-547555597b7f"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS00")
 		(at 57.15 118.11 0)
 		(unit 1)
@@ -8222,6 +8673,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 209.55 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "baadb845-b8be-4f84-9eb9-ca4e257f1e46")
+		(property "Reference" "R22"
+			(at 212.09 248.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5,1KΩ"
+			(at 207.518 252.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 207.772 250.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3859b42-ca50-4e58-b404-a2792e0ae344")
+		)
+		(pin "2"
+			(uuid "cb896fd1-361d-4d53-82b4-2ea532ebc635")
+		)
+		(instances
+			(project "robotron 057-8606"
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/091329cf-e55c-49df-b010-547555597b7f"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS123")
 		(at 147.32 259.08 0)
 		(unit 1)
@@ -8397,6 +8917,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 134.62 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd32b739-730d-4550-a913-24fc0ab1a91a")
+		(property "Reference" "R23"
+			(at 136.144 248.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5,1KΩ"
+			(at 132.334 252.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 132.842 250.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7eb152c3-4238-43f9-822d-477635c8bcdf")
+		)
+		(pin "2"
+			(uuid "bb99b69a-b9eb-4384-afba-4ffaecfb79ee")
+		)
+		(instances
+			(project "robotron 057-8606"
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/091329cf-e55c-49df-b010-547555597b7f"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 204.47 227.33 0)
 		(unit 1)
@@ -8457,6 +9046,72 @@
 			(project "robotron 057-8606"
 				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/091329cf-e55c-49df-b010-547555597b7f"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 209.55 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1ffe1fd-df57-4edc-bca5-f9ed1c4b4942")
+		(property "Reference" "#PWR049"
+			(at 209.55 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 209.55 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 209.55 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48e15f59-24b3-4ff0-a3df-c6f05662654f")
+		)
+		(instances
+			(project "robotron 057-8606"
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/091329cf-e55c-49df-b010-547555597b7f"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -9272,6 +9927,73 @@
 				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/091329cf-e55c-49df-b010-547555597b7f"
 					(reference "U7")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 132.08 256.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3b2e539-1cac-42c9-af77-21e64e6f8669")
+		(property "Reference" "C9"
+			(at 132.08 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "?nF"
+			(at 127.508 257.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 132.08 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 132.08 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb2e45f8-a6c6-44b8-a5c4-b1dc93c9aa03")
+		)
+		(pin "2"
+			(uuid "18b3de2c-ca52-4818-aad0-0a4e43592db5")
+		)
+		(instances
+			(project "robotron 057-8606"
+				(path "/b132b0dc-3df3-4acf-8ef1-9c5f2ee6a8a0/091329cf-e55c-49df-b010-547555597b7f"
+					(reference "C9")
+					(unit 1)
 				)
 			)
 		)
